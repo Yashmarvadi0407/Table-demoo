@@ -65,7 +65,7 @@ app.delete('/delete',async(req,res)=>{
     }
 });
 
-//deleteall
+// //deleteall
 // app.delete('/deletemany',async(req,res)=>{
                
 //     try {

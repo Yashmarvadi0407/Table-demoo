@@ -2,26 +2,30 @@
 const mongoose=require('mongoose')
 
 const userSchema=mongoose.Schema({
-    firstname:{
+    profile:{
         type:String,
-        require:true
+    },
+    firstname:{
+        type:String
+       
     },
     lastname:{
-        type:String,
-        require:true
+        type:String
+        
     },
     email:{
-        type:String,
-        require:true
+        type:String
+       
     },
     phone:{
-        type:String,
-        require:true
+        type:String
+        
     },
     gender:{
-        type:String,
-        require:true
+        type:String
+        
     }
+    
 })
 
 
